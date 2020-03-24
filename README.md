@@ -1,9 +1,45 @@
-# MarsRoverProblem
-Girish Code Mars Rover Problem
+The Wedding Shop – Technical Test
 
+Candidate Name : Girish Das
+Code for :  Mars Rover 
+
+Q1.  What designed pattern is used?
+A1. I have applied SOLID design pattern.
+
+Q2.  What is the code approach?
+A2.  I have applied TDD (Test driven development) code approaches. Test First and then Evolve the Code and Refactor until successful .
+
+Q3.  What Unit Test scenarios  are applied?
+A3. There are two test scenarios for each test input.
+       TestScanrio 1 : est_12N_LMLMLMLMM() and TestScanrio 2: Test_33E_MRRMMRMRRM()
+
+Q4. When application is run , What Test input need ( Scenario 1) to be entered ( For each line below press enter)
+A4. 
+
+5 5
+1 2 N
+LMLMLMLMM
+
+Expected Output:
+
+1 3 N
+
+
+Q5. When run the application, What Test input need (Scenario 2) to be entered ( For each line below press enter)
+A5.
+ 
+5 5
+3 3 E
+MMRMMRMRRM
+
+Expected Output:
+
+5 1 E
+
+
+Problem 
 
 Introduction
-
 Below is a fun coding task that we would like you to complete. It should be considered an opportunity to demonstrate your creativity and ability to think outside the box. The problem demonstrates the minimum required for the output.
 
 You may also include a brief explanation of your design and assumptions along with your code.
@@ -28,21 +64,23 @@ The position is made up of two integers and a letter separated by spaces, corres
  
 Each rover will be finished sequentially, which means that the second rover won't start to move until the first one has finished moving.
 
+OUTPUT
+The output for each rover should be its final co-ordinates and heading.
 
+INPUT AND OUTPUT
 Test Input:
-
 5 5
-
 1 2 N
-
 LMLMLMLMM
 
-3 3 E
-
-MMRMMRMRRM
-
 Expected Output:
-
 1 3 N
 
+
+Test Input:
+5 5
+3 3 E
+MMRMMRMRRM
+ 
+Expected Output:
 5 1 E
